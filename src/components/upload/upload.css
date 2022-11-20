@@ -1,0 +1,32 @@
+.create-post-section{
+    width:500px;
+    margin: 70px auto;
+   padding:30px 50px ;
+   box-sizing: border-box;
+}
+.single-col .form-field input{
+    width: 100%;
+}
+.row{
+    margin-bottom: 15px;
+}
+.two-col .form-field{
+width:50%;
+}
+.two-col .form-field:first-child{
+   float: left; 
+}
+.two-col .form-field:last-child{
+   float: right; 
+}
+.form-footer{
+    margin: auto;
+    width: 80px;
+    height: 30px; 
+}
+.form-footer button{
+    object-fit: cover;
+    margin: auto;
+    color:green
+
+}

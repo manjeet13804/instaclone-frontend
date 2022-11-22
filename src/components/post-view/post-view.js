@@ -4,7 +4,7 @@ import Header from "../header/header";
 const PostView = ()=> {
     const [posts, setPosts] = useState([]);
     useEffect(()=> {
-        fetch("http://localhost:3004/user").then((res)=>res.json()).then(({user})=> {
+        fetch("https://instaclone-backend-10x-app.herokuapp.com//user").then((res)=>res.json()).then(({user})=> {
             setPosts(user);
         }).catch((err)=> {
             if(err) {
